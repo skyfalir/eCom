@@ -1,0 +1,8 @@
+main{
+    min-height: calc(100vh - 10rem);
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}

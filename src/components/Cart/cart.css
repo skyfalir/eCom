@@ -1,0 +1,27 @@
+.cart {
+  /* padding: 1.3rem; */
+  position: relative;
+}
+.cart:hover{
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.counter {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  color: white;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.container{
+  display: flex;
+  justify-content: center;
+}

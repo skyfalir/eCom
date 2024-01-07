@@ -1,0 +1,48 @@
+@import url("colors.css");
+
+.product-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto auto;
+  }
+  .goback {
+    text-shadow: 1px 1px 2px var(--background-color);
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    color: var(--primary-color);
+    display: inline-block;
+    font-size: 1.5rem;;
+  }
+  img{
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .information {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .title{
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 728px) {
+    .goback {
+      margin-right: 0px;
+    }
+    .wrapper {
+      flex-direction: column;
+    }
+    
+  }
