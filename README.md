@@ -1,5 +1,11 @@
-# eCom-CA
- Front-end-frameworks CA
-## using
- MUI components
- Vite
+# eCom ecommerce website
+A site that has it all!
+
+## Using:
+### MUI components
+* Search bar
+* reviews
+
+### Vite
+
+
