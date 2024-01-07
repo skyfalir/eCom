@@ -14,7 +14,6 @@ export default function Home() {
 		fetch('https://api.noroff.dev/api/v1/online-shop')
 			.then((res) => res.json())
 			.then((json) => {
-				console.log(json);
 				setProducts(json);
 				setFilteredProducts(json);
 			})

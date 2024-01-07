@@ -67,7 +67,7 @@ function ProductPage() {
 							<Tags tags={product.tags} />
 							<div className="product-reviews-price">
 								{renderDiscount(product.discountedPrice, product.price)}
-							</div>
+						
 							<div className="review">
 								{avgRating !== 0 && (
 									<Rating
@@ -83,6 +83,7 @@ function ProductPage() {
 							</div>
 						</div>
 						<p className="description">{product.description}</p>
+            </div>
 						{product.reviews.map((review) => (
 							<div key={review.id} className="review">
 								<h3>{review.username}</h3>

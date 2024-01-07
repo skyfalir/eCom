@@ -39,21 +39,22 @@ function Product({ img, name, tags, price, discount, review, id, all }) {
 				<Tags tags={tags} />
 
 				<div className="product-reviews-price">
-          
 					<div className="product-review">
-						{avgRating !== 0 && (
+						{avgRating !== 0 ? (
 							<Rating
 								name="read-only"
 								value={avgRating}
 								precision={0.5}
 								readOnly
 							/>
+						) : (
+							<span>No reviews yet</span>
 						)}
-						<span>{numberOfReviewers !== 0 && `(${numberOfReviewers})`}</span>
+						{numberOfReviewers !== 0 && <span>({numberOfReviewers})</span>}
 					</div>
+					<hr className="product-hr"></hr>
 
 					{renderDiscount(discount, price)}
-
 				</div>
 				<button
 					className="add-to-cart"
