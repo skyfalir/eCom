@@ -37,6 +37,7 @@ This was a project assignment for Noroff university.
 - **Reactive cart icon**:  The cart will display the amount of items added to it, allowing the user to keep track of their cart before checkout.
 - **Checkout page**: The checkout page will display each item, with its price, image and control's to allow the user the option to increase or decrease the number of purchases of each item. Upon checkout, the user will receive confirmation of the purchase.
 - **Real-time pricing**: If the user increases/decreases the quantity of an item, the price will be calculated and displayed in real-time.
+- **Reviews**: Some products have reviews, if multiple reviews exist - the average score of reviews are displayed if multiple are present.
 
 ## Getting Started
 
