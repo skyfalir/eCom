@@ -98,7 +98,7 @@ Contributions to eCome are welcomed! If you want to contribute to the project, p
     git push origin feature/new-feature
     ```
 
-5. **Create a pull request ont he main repository, describe your changes and why they should be merged with the project**
+5. **Create a pull request on the main repository, describe your changes and why they should be merged with the project**
 
 ## License
 This project is licensed under the MIT License.
