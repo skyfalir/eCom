@@ -59,10 +59,10 @@ To get started with eCom, follow these steps:
     npm install
     ```
 
-3. **start sass and live server:**
+3. **start live server:**
 
     ```bash
-    npm run start
+    npm start
     ```
 
 ## Usage
