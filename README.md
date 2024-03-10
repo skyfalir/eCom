@@ -41,7 +41,7 @@ This was a project assignment for Noroff university.
 ### Products
 
 - **Tags**: Products have tags related to what kind of product it is displayed, they provide no real functionality - but are a visual aid in knowing what kind of product is shown.
-- **Reviews**: Some products have reviews, if multiple reviews exist - the average score of reviews are displayed if multiple are present.
+- **Reviews**: Some products have reviews, if multiple reviews exist - the average score of the reviews are displayed.
 
 ## Getting Started
 
