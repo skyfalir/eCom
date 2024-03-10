@@ -40,7 +40,7 @@ This was a project assignment for Noroff university.
 
 ## Getting Started
 
-To get started with nAuction, follow these steps:
+To get started with eCom, follow these steps:
 
 1. **Clone the repository to your local machine:**
 
@@ -62,7 +62,7 @@ To get started with nAuction, follow these steps:
 
 ## Usage
 
-Once the application is up and running, you can use nAuction for the following purposes:
+Once the application is up and running, you can use eCom for the following purposes:
 
 - **search bar**: To use the search bar simply start typing in a product name, the look-ahead will be displayed as soon as you select the search bar and will narrow its options depening on the input.
 - **Cart**: To open the cart, click the cart icon. This will lead you to the checkout page.
